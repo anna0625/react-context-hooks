@@ -7,6 +7,10 @@ const Navbar = () => {
     <div className="navbar">
       <h1>Reading List</h1>
       <p>Currently you have {books.length} books to get through...</p>
+      <p>
+        This mini project is using React Hooks <br />
+        including <strong>useContext, useReducer, useEffect, useState.</strong>
+      </p>
     </div>
   );
 };
